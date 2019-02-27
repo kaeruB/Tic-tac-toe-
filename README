@@ -1,13 +1,13 @@
-Gra sieciowa w kó³ko-krzy¿yk na system Windows. 
+Gra sieciowa w kÃ³Å‚ko-krzyÅ¼yk na system Windows. 
 x - rola serwera
-o - klient pod³¹czaj¹cy siê do serwera 
-Po grze zapis wyników do pliku.
+o - klient podÅ‚Ä…czajÄ…cy siÄ™ do serwera 
+Po grze zapis wynikÃ³w do pliku.
 
 
-Przyk³adowa kompilacja:
+PrzykÅ‚adowa kompilacja:
 g++ x.cpp -o x -lws2_32
 g++ o.cpp -o o -lws2_32
 
-Wywo³anie:
-x <- jako serwer wywo³ywane najpierw
+WywoÅ‚anie:
+x <- jako serwer wywoÅ‚ywane najpierw
 o ip
